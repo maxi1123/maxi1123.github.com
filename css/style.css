@@ -1,0 +1,253 @@
+/* ### GENERAL ### */
+
+/*  COLORS
+	#FF4500 - orange
+	#FF8000 - bright orange
+	#111111 - black
+	#242424 - text
+	#888888 - gray
+	#AAAAAA - bright gray
+	#F8F8F8 - white
+	
+	#EEEEEE->#FFFFF - gradient
+*/
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}   
+   
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+font-face {
+    font-family: 'DejaVu Sans Mono';
+    src: url('../fonts/DejaVuSansMono-webfont.eot');
+    src: url('../fonts/DejaVuSansMono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/DejaVuSansMono-webfont.woff') format('woff'),
+         url('../fonts/DejaVuSansMono-webfont.ttf') format('truetype'),
+         url('../fonts/DejaVuSansMono-webfont.svg#DejaVuSansMonoBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin:0;
+	padding-bottom: 64px;
+	
+	background: #F8F8F8;
+	background-image: url('../img/cubes.png');
+	color: #242424;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+	font-weight: normal;
+	font-size: 36px;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 22px;
+	border-bottom: 1px solid #888;
+}
+
+h3, h4, h5, h6{
+	font-size: 16px;
+	font-family: 'Open Sans Bold';
+}
+
+a {
+	text-decoration: none;
+	color: #FF4500;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+code {
+    font-family: 'DejaVu Sans Mono';
+    background: #F2F2F2;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+}
+
+.gradient {
+	background: #FFFFFF; /* Old browsers */
+	background: -moz-linear-gradient(top,  #FFFFFF 13%, #EEEEEE 90%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(13%,#FFFFFF), color-stop(90%,#EEEEEE)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #FFFFFF 13%,#EEEEEE 90%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #FFFFFF 13%,#EEEEEE 90%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #FFFFFF 13%,#EEEEEE 90%); /* IE10+ */
+	background: linear-gradient(to bottom,  #FFFFFF 13%,#EEEEEE 90%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#EEEEEE',GradientType=0 ); /* IE6-9 */
+
+}
+
+.shadow {
+	-moz-box-shadow:    0 2px 6px 0 #AAAAAA;
+	-webkit-box-shadow: 0 2px 6px 0 #AAAAAA;
+	box-shadow:         0 2px 6px 0 #AAAAAA;
+}
+
+/* ### HEADER ### */
+
+#header {
+	height: 32px;
+	width: 1024px;
+	
+	margin: auto;
+	
+	background: #F8F8F8;
+	font-size: 14px;
+}
+
+.headeritem {
+	margin-left: 24px;
+	float: left;
+	margin-top: 4px;
+}
+
+a.headeritem {
+	color: #888888;
+}
+
+a.headeritem:hover {
+	color: #FF4500;
+	text-decoration: none;
+}
+
+#blockstorm {
+	margin-left: 12px;
+	color: #FF4500;
+}
+
+/* ### LOGO ### */
+#logo-container {
+	width: 1024px;
+	margin: auto;
+	margin-top: 32px;
+}
+
+#logo {
+	font-family: 'Open Sans Light';
+	font-size: 60px;
+}
+
+#description {
+	
+}
+
+/* ### MENU ### */
+
+#menu {
+	height: 51px;
+	width: 1024px;
+	
+	margin: auto;
+	margin-top: 32px;
+	
+	border-bottom: 4px solid #FF4500;
+	
+	font-size: 18px;
+	color: #AAAAAA;
+	
+}
+
+.menuitem {
+	padding-right: 12px;
+	margin-top: 14px;
+	float: left;
+	
+	color: #888888;
+}
+
+a.menuitem:hover {
+	color: #242424;
+	text-decoration: none;
+}
+
+#home {
+	height: 32px;
+	width: 32px;
+
+	margin-top: 10px;
+	margin-left: 12px;
+	margin-right: 12px;
+	float: left;
+	
+	background:transparent url('../img/home.png') center top no-repeat;
+}
+
+#home:hover {
+	background-image: url('../img/home_dark.png');
+}
+
+#ip {
+	float: right;
+	margin-top: 14px;
+	padding-right: 12px;
+	
+	color: #888888;
+}
+
+/* ### SLIDESHOW ### */
+
+#slideshow {
+	width: 1024px;
+	height: 256px;
+	margin: auto;
+	margin-top: 32px;
+	
+	background: #F8F8F8;
+}
+
+/* ### CONTENT ### */
+
+#content {
+	width: 1024px;
+	
+	margin: auto;
+	margin-top: 32px;
+	
+	background: #F8F8F8;
+}
+
+#content-container {
+	margin: 12px;
+	padding-top: 16px;
+	padding-bottom: 32px;
+}
