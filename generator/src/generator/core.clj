@@ -26,10 +26,10 @@
       [:body
        [:div#header.shadow ; header
         (link-to {:class "headeritem" :id "earthcraft"} "index.html" "home")
-        (link-to {:class "headeritem"} "http://www.planetminecraft.com/server/playblockstormcom/" "planetminecraft")]
+        (link-to {:class "headeritem"} "http://www.planetminecraft.com/server/factions-pvp-dedicated-earthcraft-pvp/" "planetminecraft")]
        [:div#logo-container ; logo
-        [:div#logo "earthcraftsurvival.com"]
-        [:div#description "play.earthcraftsurvival.com - Description"]]
+        [:div#logo "Earthcraft"]
+        [:div#description "play.earthcraftsurvival.com - Minecraft Bukkit Server Since 2012"]]
        [:div#menu.shadow.gradient ; menu
         [:a#home {:href "index.html"}]
         (link-to {:class "menuitem"} "faq.html" "FAQ")
@@ -37,6 +37,7 @@
         (link-to {:class "menuitem"} "vote.html" "Vote")
         (link-to {:class "menuitem"} "rules.html" "Rules")
         (link-to {:class "menuitem"} "ranks.html" "Ranks")
+        (link-to {:class "menuitem"} "signshops.html" "Sign Shops")
         [:div#ip "play.earthcraftsurvival.com"]]
        (if (.equalsIgnoreCase name "index")
          [:div#slideshow ; slideshow
