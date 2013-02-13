@@ -4,7 +4,7 @@
 See [this page](http://earthcraftsurvival.com/ranks.html)
 
 ###Why can't I build/use commands?
-You are probably in the [Griefer] or [Guest] group. See below how to become Member.
+You are probably in the [Griefer] group. Talk to Maxi1123 if you think it was a mistake.
 
 ###How can I become VIP?
 [Donate](http://earthcraftsurvival.com/donate.html)
