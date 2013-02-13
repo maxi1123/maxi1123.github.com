@@ -31,5 +31,6 @@ You will need a chest, a sign and at least one item.
 4. On the first line write your name.
 5. On the second line write the amount of items you want to sell at once.
 6. On the third line write these parameters: B [YourBuyPrice]:[YourSellPrice] S
+7. On the last line write the Item's name or the ID.
 
  
