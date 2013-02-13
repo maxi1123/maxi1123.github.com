@@ -26,7 +26,8 @@
       [:body
        [:div#header.shadow ; header
         (link-to {:class "headeritem" :id "earthcraft"} "index.html" "home")
-        (link-to {:class "headeritem"} "http://www.planetminecraft.com/server/factions-pvp-dedicated-earthcraft-pvp/" "planetminecraft")]
+        (link-to {:class "headeritem"} "http://www.planetminecraft.com/server/factions-pvp-dedicated-earthcraft-pvp/" "planetminecraft")
+        (link-to {:class "headeritem"} "https://minestatus.net/63996-factions-pvp-spleef-shops-dedicated-earthcraft-pvp/vote" "minestatus")]
        [:div#logo-container ; logo
         [:div#logo "Earthcraft"]
         [:div#description "play.earthcraftsurvival.com - Minecraft Bukkit Server Since 2012"]]
