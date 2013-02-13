@@ -6,13 +6,13 @@ On this page we show you  the ranks of Earthcraft
 Ranks
 -----
 
-Player: The normal rank on Earthcraft.
-S-VIP: The VIP rank you get for donating 5$.
-M-VIP: The VIP rank you get for donating 10$.
-Elite-VIP: The VIP rank you get for donating 15$.
-Moderator: Moderators make sure that the players follow the rules.
-Admin: Admins have access to nearly all commands.
-Owner: The Owner of the server. He can do whatever he wants.
+- Player: The normal rank on Earthcraft.
+- S-VIP: The VIP rank you get for donating 5$.
+- M-VIP: The VIP rank you get for donating 10$.
+- Elite-VIP: The VIP rank you get for donating 15$.
+- Moderator: Moderators make sure that the players follow the rules.
+- Admin: Admins have access to nearly all commands.
+- Owner: The Owner of the server. He can do whatever he wants.
 
 Commands
 --------
