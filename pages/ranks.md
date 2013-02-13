@@ -17,7 +17,7 @@ Ranks
 Commands
 --------
 
-Most commands aren't explained in detail, just type the command without any parameters or /<command> help and it usually tells you how to use it.
+Most commands aren't explained in detail, just type the command without any parameters or /\<command\> help and it usually tells you how to use it.
                   
 Commands [Players] can use:
 
